@@ -49,7 +49,7 @@ let xpHeroi;
 do {
     xpHeroi = prompt("Informe a quantidade de XP do herói (valor inteiro e positivo): ");
     xpHeroi = parseInt(xpHeroi, 10);
-    console.log(xpHeroi);
+    
     if (!validarXP(xpHeroi)) {
         console.log("XP inválido, por favor informe novamente!");
     }
